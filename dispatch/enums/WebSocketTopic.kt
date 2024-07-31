@@ -1,0 +1,14 @@
+package com.ilogistic.delivery_admin_backend.dispatch.enums
+
+enum class WebSocketTopic {
+    NEW_ORDER_TOPIC,
+    DISPATCH_ORDER_TOPIC,
+    DISPATCH_CANCEL_TOPIC,
+    COMPLETE_ORDER_TOPIC,
+    MODIFY_ORDER_TOPIC,
+    DELETE_ORDER_TOPIC,
+    REQUEST_ORDER_TOPIC,
+    DRIVER_LOCATION_TOPIC,
+    MESSAGE_TOPIC,
+    DISPATCH_FORCE_TOPIC
+}
